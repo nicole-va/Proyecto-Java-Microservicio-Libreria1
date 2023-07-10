@@ -24,7 +24,7 @@ public class BookService {
     }
 
     public Book addBook(Book book){
-        book.setBookId(bookId: null);
+        book.setBookId(null);
         return bookRepository.save(book);
     }
 
